@@ -1,6 +1,8 @@
-# footloose k3s
+# k3s on footloose 
 
-Spinning up a 3 node k3s (Kubernetes) cluster in localhose. This aims to ease your journey onbarding to kubernetes.
+[Kubernetes](https://kubernetes.io/) seems a very large and cloud only stuff in the old days. But by the effort of [K3S](https://github.com/rancher/k3s), [footloose](https://github.com/weaveworks/footloose) and [docker](https://docs.docker.com/get-docker/). We are now able to setup a Kubernetes clusters every easily on our local machine.
+
+Spinning up a 3 node k3s (Kubernetes) cluster in localhose. This repo aims to ease your journey onboarding to kubernetes.
 
 # Dependencies
 
@@ -39,13 +41,13 @@ curl -s http://localhost:8080 | grep hello-kubernetes
 
 You should see something like the following
 ```
-~/footloose-k3s master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
+~/k3s-on-footloose master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
       <td>hello-kubernetes-594f6f475f-bsvp5</td>
-~/footloose-k3s master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
+~/k3s-on-footloose master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
       <td>hello-kubernetes-594f6f475f-khcb4</td>
-~/footloose-k3s master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
+~/k3s-on-footloose master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
       <td>hello-kubernetes-594f6f475f-xhlfv</td>
-~/footloose-k3s master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
+~/k3s-on-footloose master ?1 ❯ curl -s http://localhost:8080 | grep hello-kubernetes
       <td>hello-kubernetes-594f6f475f-bsvp5</td>
 ```
 
