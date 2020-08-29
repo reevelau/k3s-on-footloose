@@ -1,6 +1,6 @@
 # k3s on footloose 
 
-[Kubernetes](https://kubernetes.io/) seems a very large and cloud only stuff in the old days. But by the effort of [K3S](https://github.com/rancher/k3s), [footloose](https://github.com/weaveworks/footloose) and [docker](https://docs.docker.com/get-docker/). We are now able to setup a Kubernetes clusters every easily on our local machine.
+[Kubernetes](https://kubernetes.io/) seems a very large and cloud only stuff in the old days. But by the effort of [K3S](https://github.com/rancher/k3s), [footloose](https://github.com/weaveworks/footloose) and [docker](https://docs.docker.com/get-docker/). We are now able to setup a Kubernetes clusters very easily on our local machine.
 
 Spinning up a 3 node k3s (Kubernetes) cluster in localhose. This repo aims to ease your journey onboarding to kubernetes.
 
